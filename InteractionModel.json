@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "new year holidays",
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          },
+          {
+            "name": "MonthIntent",
+            "slots": [
+              {
+                "name": "Month",
+                "type": "AMAZON.Month"
+            }
+            ],
+              "samples": [
+              "{Month}",
+              "Tell me about {Month}",
+              "what are the holidays in {Month}",
+              "holidays in {Month}",
+              "list holidays in {Month}"
+            ]
+          },
+          {
+            "name": "AMAZON.NavigateHomeIntent",
+            "samples": []
+          }
+      ],
+      "types": []
+    }
+  }
+}
