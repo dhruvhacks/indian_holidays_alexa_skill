@@ -1,0 +1,43 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This skill tells all the Indian holidays in a month of your choice in 2018 with corresponding date and day.",
+          "examplePhrases": [
+            "Alexa, start new year holidays",
+          ],
+          "keywords": [
+            "indian",
+            "golidays",
+            "calendar",
+            "New Year",
+            "2018"
+          ],
+          "name": "new year holidays- India",
+          "description": "This skill lets users know all the Indian Holidays in 2018 of the month of their choice. Just invoke the skill with "Alexa, start New year holidays" and tell the month about which you wish to know."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "LIFESTYLE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
