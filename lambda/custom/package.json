@@ -1,0 +1,15 @@
+{
+  "name": "alexa-skill-kit-sdk",
+  "version": "1.0.0",
+  "description": "This skill tells all the Indian holidays in a month of your choice in 2018 with corresponding date and day.",
+  "main":"skill.js",
+  "private": true,
+  "keywords": [
+    "alexa",
+    "skill",
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10"
+  }
+}
